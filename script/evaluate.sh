@@ -4,7 +4,7 @@ python $pypath/evaluate.py \
 --ex_index=1 \
 --device_id=0 \
 --mode=test \
---corpus_type=NYT \
+--corpus_type=CA \
 --ensure_corres \
 --ensure_rel \
 --corres_threshold=0.5 \
