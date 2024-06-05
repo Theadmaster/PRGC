@@ -26,7 +26,7 @@ class Params:
 
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.n_gpu = torch.cuda.device_count()
-        self.max_seq_length = 300
+        self.max_seq_length = 100
         self.data_cache = False
         # self.train_batch_size = 6 if 'WebNLG' in corpus_type else 64
         self.train_batch_size = 8
