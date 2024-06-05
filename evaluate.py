@@ -27,7 +27,7 @@ parser.add_argument('--device_id', type=int, default=0, help="GPU index")
 parser.add_argument('--restore_file', default='last', help="name of the file containing weights to reload")
 parser.add_argument('--mode', default='test', help="mode")
 
-parser.add_argument('--corres_threshold', type=float, default=0.5, help="threshold of global correspondence")
+parser.add_argument('--mat_threshold', type=float, default=0.5, help="threshold of global correspondence")
 parser.add_argument('--rel_threshold', type=float, default=0.5, help="threshold of relation judgement")
 parser.add_argument('--ensure_corres', action='store_true', help="correspondence ablation")
 parser.add_argument('--ensure_rel', action='store_true', help="relation judgement ablation")
